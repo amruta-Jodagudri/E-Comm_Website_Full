@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-        <div className="bg-[#E3EDF6] mt-4">
+        <div className="bg-[#E3EDF6] mt-0">
             <div className="container grid md:grid-cols-2 py-10 px-20">
                 <div className="flex items-center">
                     <div className="max-w-[450px] space-y-4">
