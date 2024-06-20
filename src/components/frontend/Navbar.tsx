@@ -15,7 +15,7 @@ const Navbar = ({setShowcart}:PropsType) => {
         <div className="pt-4 bg-white top-0 sticky">
             <div className="container">
                 <div className="flex justify-between items-center">
-                    <div className="text-4xl font-bold">LOGO</div>
+                    <div className="text-4xl font-bold">SHOP.</div>
                     <div className="lg:flex hidden w-full max-w-[500px]">
                         <input type="text" className="border-2 border-accept px-6 py-2 w-full" placeholder="Search For products..." />
                         <div className="bg-accept text-white text-[26px] grid place-item center px-4">

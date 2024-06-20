@@ -14,7 +14,6 @@ const Layout = ({children}:{children:React.ReactNode}) => {
     return <div className="flex">
       <Sidebar/>
       <div className="w-full h-full">
-        {/* <Navbar/> */}
         <div className="bg-gray-200 p-4 h-auto">{children}</div>
       </div>
       {isLoading && <Loader/> }

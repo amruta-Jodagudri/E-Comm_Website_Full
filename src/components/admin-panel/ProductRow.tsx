@@ -51,7 +51,7 @@ const ProductRow = ({srNo, setOpenPopup, setUpdateTable, product}: PropsType) =>
         <td>
             <div>{product.name}</div>
         </td>
-        <td>$ {product.price}</td>
+        <td>Rs. {product.price}</td>
         <td className="py-2">
             <Image
                 src={product.imgSrc}
