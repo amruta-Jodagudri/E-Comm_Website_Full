@@ -7,7 +7,7 @@ export const LoadingSlice = createSlice({
     initialState,
     reducers: {
         setLoading: (state, action: PayloadAction<boolean>) => {
-            return action.payload;  
+            return action.payload;
         },
     },
 });
